@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
+import '../styles/globals.css';
 
 const GA_TRACKING_ID = "G-TTG6MZJVGB"; // Reemplaza con tu ID real
 
