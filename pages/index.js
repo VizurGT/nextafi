@@ -95,6 +95,18 @@ export default function HomePage() {
         />
       </Head>
 
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TTG6MZJVGB"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TTG6MZJVGB');
+</script>
+
+
       {/* Aplicar la clase de la fuente globalmente */}
       <div className={`${inter.variable} font-sans`}>
         <AppHeader />
