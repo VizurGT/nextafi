@@ -1,0 +1,8 @@
+# robots.txt
+User-agent: *
+Allow: /
+
+# Disallow: /admin/ # Ejemplo: si tuvieras una sección de admin que no quieres indexar
+# Disallow: /private-page.html # Ejemplo
+
+Sitemap: https://www.afiempresas.cl/sitemap.xml # ¡IMPORTANTE! Reemplaza con tu dominio real
